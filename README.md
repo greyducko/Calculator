@@ -1,2 +1,4 @@
 # Calculator
-Simple calculator using the PyQt library
+Simple calculator using the PyQt5 library to implement a GUI
+
+Python implementation of a calculator that evaluates simple expressions with two numbers using the addition, subtraction, multiplication, and division operations. The PyQt5 library is used to create a simple GUI that allows users to click to input values into the calculator. The backend logic uses regular expressions to validate that the user input is valid prior to evaluating the expression. This implementation makes use of the Model-View-Controller framework to compartmentalize and divide the program logic. The view (in this case, the GUI) sends signals to the controller when the buttons are pressed. The controller sends this information to the model, which takes care of the logic and verifies if the user input is valid and computes the expression. This is passed back to the controller, which then tells the view to update its display. 
